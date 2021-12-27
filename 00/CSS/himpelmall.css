@@ -236,6 +236,89 @@ main .dot li .active {
   color: #fff;
 }
 
+.section02 {
+  width: 100%;
+}
+
+.section02 .inner {
+  padding: 8rem;
+}
+
+.section02 .inner h2 {
+  text-align: center;
+  font-size: 2rem;
+}
+
+.section02 .inner p.first{
+  text-align: center;
+  font-size: 19px;
+  color: #333;
+  padding: 35px 0px 0px;
+}
+
+.section02 .inner p.second{
+  text-align: center;
+  font-size: 22px;
+  margin: 50px 0;
+}
+
+.section02 .inner p.second span {
+  display: inline-block;
+  width: 35px;
+  height: 35px;
+  background-color: #eb1f4b;
+  color: #fff;
+  margin-right: 13px;
+  border-radius: 50%;
+  padding: 4px;
+  box-sizing: border-box;
+  text-align: center;
+}
+
+.section02 .inner .wrap li:first-child a img,
+.section02 .inner .wrap li:last-child a img{
+  transition: all 0.2s linear;
+}
+
+.section02 .inner .wrap li:first-child a img:hover,
+.section02 .inner .wrap li:last-child a img:hover{
+  transform: scale(0.9);
+}
+
+.section02 .wrap,
+.section02 .wrap li a .text_wrap{
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.section02 .wrap li:first-child,
+.section02 .wrap li:last-child{
+  list-style: none;
+  border-radius: 30px;
+  padding: 0 170px;
+  margin: 10px 10px 0 10px;
+}
+
+.section02 .wrap li:first-child {
+  background-color: #f0f0f0;
+}
+
+.section02 .wrap li:last-child{
+  background-color: #e2e7ed;
+}
+
+.section02 .wrap li:first-child a div,
+.section02 .wrap li:last-child a div{
+  color: #000;
+  font-size: 26px;
+  font-weight: bold;
+}
+
+.section02 .wrap li a .text_wrap {
+  margin-bottom: 20px;
+}
+
 footer {
   width: 100%;
   background-color: #59595b;
